@@ -1,0 +1,46 @@
+.container {
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(105, 105, 105);
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.result-panel {
+    min-height: 50px; 
+    border: 1px solid white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+    text-align: end;
+}
+
+.numpad-opspad-container {
+    display: flex;
+}
+
+.num-pad {
+    width: 70%;
+}
+
+.op-pad {
+    width: 30%
+}
+
+.num-pad button {
+    width: 30%;
+}
+
+.op-pad button {
+    width: 40%
+}
+
+.num-pad button, .op-pad button {
+    margin: 2px;
+    background-color: rgb(43, 43, 43);
+    border-color: white;
+    color: white;
+}
